@@ -1,0 +1,40 @@
+.btn {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 4px 16px 5px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  font-family: inherit;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s; }
+  .btn:hover {
+    opacity: 0.8; }
+  .btn:active {
+    opacity: 0.6; }
+  .btn--big {
+    padding: 17px 29px 16px;
+    font-size: 18px;
+    line-height: 21px;
+    border-radius: 27px; }
+  .btn--yellow {
+    color: #424242;
+    background-color: #ffd054; }
+  .btn--blue {
+    color: #ffffff;
+    background-color: #0d8ae4; }
+  .btn:disabled {
+    opacity: 0.46;
+    cursor: default; }
